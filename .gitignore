@@ -1,0 +1,10 @@
+.vscode/
+
+*.dSYM
+.DS_*
+*.out
+.*test*
+*.in
+*.swp
+*.o
+server
