@@ -22,4 +22,4 @@ $ curl --http0.9 -v localhost:8080
 `-v` for verbose mode.
 
 
-***P.S:*** Port is better not be less than 1024, as those are reserved already, thus causing an error when binding the socket.
+***P.S:*** Port is better not be less than 1024, as those are reserved already, plus normal users are not allowed to run servers on them; thus causing an error when binding the socket (unless you run the server as root).
